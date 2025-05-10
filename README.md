@@ -6,7 +6,5 @@ colorTo: yellow
 sdk: static
 pinned: false
 tags:
-  - deepsite
+  - Accent Home Remedies 
 ---
-
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
