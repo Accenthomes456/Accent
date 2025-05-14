@@ -235,276 +235,337 @@ This partnership allows us to maintain the intimate feel of a family-run team, w
             </div>
             
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-                <!-- Data Entry Position -->
-                <div class="job-card bg-gray-50 p-8 rounded-xl shadow-md transition duration-300 transform hover:scale-105">
-                    <div class="text-blue-500 text-4xl mb-6">
-                        <i class="fas fa-keyboard"></i>
-                    </div>
-                    <h3 class="text-2xl font-bold text-gray-800 mb-2">Data Entry Specialist</h3>
-                    <p class="text-gray-500 mb-4">Full-time | Remote</p>
-                    <p class="text-gray-600 mb-6">Accurately input and manage construction project data, ensuring all documentation is properly recorded and organized.</p>
-                    <div class="mb-6">
-                        <h4 class="font-bold text-gray-800 mb-2">Responsibilities:</h4>
-                        <ul class="list-disc list-inside text-gray-600 space-y-1">
-                            <li>Enter project data into company systems</li>
-                            <li>Maintain accurate records of materials and labor</li>
-                            <li>Generate reports for project managers</li>
-                            <li>Verify data accuracy and completeness</li>
-                        </ul>
-                    </div>
-                       <!-- Toggle Button -->
-        <button onclick="toggleRequirements(this)" class="mt-4 text-blue-600 hover:underline focus:outline-none">
-            Show Requirements
-        </button>
+              <!-- Job Listings Section -->
+<section class="max-w-6xl mx-auto p-6">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 
-        <!-- Collapsible Requirements -->
-        <div class="requirements mt-4 hidden">
-            <h4 class="font-bold text-gray-800 mb-2">Requirements:</h4>
-            <ul class="list-disc list-inside text-gray-600 space-y-1">
-                <li>Be eligible to work in the United States</li>
-                <li>Be aged 18 or over</li>
-                <li>Education/Experience: High school diploma or GED required.</li>
-                <li>Train on-the-job</li>
-            </ul>
-        </div>
+    <!-- Job Card Template - Repeat This for Each Role -->
+    <div class="bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition duration-300">
+      <div class="text-blue-500 text-4xl mb-4">
+        <i class="fas fa-keyboard"></i>
+      </div>
+      <h3 class="text-xl font-bold text-gray-800 mb-1">Data Entry Specialist</h3>
+      <p class="text-gray-500 text-sm mb-2">Full-time | Remote</p>
+      <p class="text-gray-600 mb-4 text-sm">Accurately input and manage construction project data, ensuring all documentation is properly recorded and organized.</p>
+
+      <div class="mb-4">
+        <h4 class="text-gray-800 font-semibold mb-1">Responsibilities:</h4>
+        <ul class="list-disc list-inside text-gray-600 text-sm space-y-1">
+          <li>Enter project data into company systems</li>
+          <li>Maintain accurate records of materials and labor</li>
+          <li>Generate reports for project managers</li>
+          <li>Verify data accuracy and completeness</li>
+        </ul>
+      </div>
+
+      <button onclick="toggleRequirements(this)" class="text-blue-600 text-sm font-medium hover:underline mb-2">
+        Show Requirements
+      </button>
+      <div class="requirements hidden mt-2 text-sm">
+        <h4 class="font-semibold text-gray-800 mb-1">Requirements:</h4>
+        <ul class="list-disc list-inside text-gray-600 space-y-1">
+          <li>Be eligible to work in the United States</li>
+          <li>Be aged 18 or over</li>
+          <li>High school diploma or GED required</li>
+          <li>Train on-the-job</li>
+        </ul>
+      </div>
+
+      <a href="#application-form" class="mt-4 inline-block text-purple-600 font-semibold hover:text-purple-800 transition">
+        Apply Now <i class="fas fa-arrow-right ml-1"></i>
+      </a>
     </div>
-</div>
 
-<!-- JavaScript -->
+    <!-- Repeat the above block for other positions like Payroll Clerk, Customer Service Representative, etc. -->
+
+  </div>
+</section>
+
+<!-- JavaScript for Toggle -->
 <script>
-    function toggleRequirements(button) {
-        const reqDiv = button.nextElementSibling;
-        const isHidden = reqDiv.classList.contains('hidden');
-        reqDiv.classList.toggle('hidden');
-        button.textContent = isHidden ? 'Hide Requirements' : 'Show Requirements';
-    }
+  function toggleRequirements(button) {
+    const reqDiv = button.nextElementSibling;
+    const isHidden = reqDiv.classList.contains('hidden');
+    reqDiv.classList.toggle('hidden');
+    button.textContent = isHidden ? 'Hide Requirements' : 'Show Requirements';
+  }
 </script>
-                    <a href="#application-form" class="text-purple-600 font-bold hover:text-purple-800 transition flex items-center">
-                        Apply Now <i class="fas fa-arrow-right ml-2"></i>
-                    </a>
-                </div>
-                
-                <!-- Payroll Clerk Position -->
-                <div class="job-card bg-gray-50 p-8 rounded-xl shadow-md transition duration-300 transform hover:scale-105">
-                    <div class="text-green-500 text-4xl mb-6">
-                        <i class="fas fa-calculator"></i>
-                    </div>
-                    <h3 class="text-2xl font-bold text-gray-800 mb-2">Payroll Clerk</h3>
-                    <p class="text-gray-500 mb-4">Full-time | Remote</p>
-                    <p class="text-gray-600 mb-6">Process payroll for our construction teams, ensuring accurate and timely payments while maintaining compliance.</p>
-                    <div class="mb-6">
-                        <h4 class="font-bold text-gray-800 mb-2">Responsibilities:</h4>
-                        <ul class="list-disc list-inside text-gray-600 space-y-1">
-                            <li>Process weekly payroll for employees</li>
-                            <li>Maintain payroll records and documentation</li>
-                            <li>Address payroll inquiries from employees</li>
-                            <li>Ensure compliance with labor laws</li>
-                        </ul>
-                    </div>
-                       <!-- Toggle Button -->
-        <button onclick="toggleRequirements(this)" class="mt-4 text-blue-600 hover:underline focus:outline-none">
-            Show Requirements
-        </button>
+<!-- Job Listings Section -->
+<section class="max-w-6xl mx-auto p-6">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 
-        <!-- Collapsible Requirements -->
-        <div class="requirements mt-4 hidden">
-            <h4 class="font-bold text-gray-800 mb-2">Requirements:</h4>
-            <ul class="list-disc list-inside text-gray-600 space-y-1">
-                <li>Be eligible to work in the United States</li>
-                <li>Be aged 18 or over</li>
-                <li>Education/Experience: High school diploma or GED required.</li>
-                <li>Train on-the-job</li>
-            </ul>
-        </div>
+    <!-- Job Card Template - Repeat This for Each Role -->
+    <div class="bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition duration-300">
+      <div class="text-blue-500 text-4xl mb-4">
+        <i class="fas fa-keyboard"></i>
+      </div>
+      <h3 class="text-xl font-bold text-gray-800 mb-1">Data Entry Specialist</h3>
+      <p class="text-gray-500 text-sm mb-2">Full-time | Remote</p>
+      <p class="text-gray-600 mb-4 text-sm">Accurately input and manage construction project data, ensuring all documentation is properly recorded and organized.</p>
+
+      <div class="mb-4">
+        <h4 class="text-gray-800 font-semibold mb-1">Responsibilities:</h4>
+        <ul class="list-disc list-inside text-gray-600 text-sm space-y-1">
+          <li>Enter project data into company systems</li>
+          <li>Maintain accurate records of materials and labor</li>
+          <li>Generate reports for project managers</li>
+          <li>Verify data accuracy and completeness</li>
+        </ul>
+      </div>
+
+      <button onclick="toggleRequirements(this)" class="text-blue-600 text-sm font-medium hover:underline mb-2">
+        Show Requirements
+      </button>
+      <div class="requirements hidden mt-2 text-sm">
+        <h4 class="font-semibold text-gray-800 mb-1">Requirements:</h4>
+        <ul class="list-disc list-inside text-gray-600 space-y-1">
+          <li>Be eligible to work in the United States</li>
+          <li>Be aged 18 or over</li>
+          <li>High school diploma or GED required</li>
+          <li>Train on-the-job</li>
+        </ul>
+      </div>
+
+      <a href="#application-form" class="mt-4 inline-block text-purple-600 font-semibold hover:text-purple-800 transition">
+        Apply Now <i class="fas fa-arrow-right ml-1"></i>
+      </a>
     </div>
-</div>
 
-<!-- JavaScript -->
+    <!-- Repeat the above block for other positions like Payroll Clerk, Customer Service Representative, etc. -->
+
+  </div>
+</section>
+
+<!-- JavaScript for Toggle -->
 <script>
-    function toggleRequirements(button) {
-        const reqDiv = button.nextElementSibling;
-        const isHidden = reqDiv.classList.contains('hidden');
-        reqDiv.classList.toggle('hidden');
-        button.textContent = isHidden ? 'Hide Requirements' : 'Show Requirements';
-    }
+  function toggleRequirements(button) {
+    const reqDiv = button.nextElementSibling;
+    const isHidden = reqDiv.classList.contains('hidden');
+    reqDiv.classList.toggle('hidden');
+    button.textContent = isHidden ? 'Hide Requirements' : 'Show Requirements';
+  }
 </script>
-                    <a href="#application-form" class="text-purple-600 font-bold hover:text-purple-800 transition flex items-center">
-                        Apply Now <i class="fas fa-arrow-right ml-2"></i>
-                    </a>
-                </div>
-                
-                <!-- Personal Assistant Position -->
-                <div class="job-card bg-gray-50 p-8 rounded-xl shadow-md transition duration-300 transform hover:scale-105">
-                    <div class="text-purple-500 text-4xl mb-6">
-                        <i class="fas fa-calendar-check"></i>
-                    </div>
-                    <h3 class="text-2xl font-bold text-gray-800 mb-2">Executive Personal Assistant</h3>
-                    <p class="text-gray-500 mb-4">Full-time | Remote</p>
-                    <p class="text-gray-600 mb-6">Provide comprehensive support to our executive team, managing schedules, communications, and special projects.</p>
-                    <div class="mb-6">
-                        <h4 class="font-bold text-gray-800 mb-2">Responsibilities:</h4>
-                        <ul class="list-disc list-inside text-gray-600 space-y-1">
-                            <li>Manage executive calendars and appointments</li>
-                            <li>Coordinate travel arrangements</li>
-                            <li>Prepare reports and presentations</li>
-                            <li>Handle confidential information</li>
-                        </ul>
-                    </div>
-                       <!-- Toggle Button -->
-        <button onclick="toggleRequirements(this)" class="mt-4 text-blue-600 hover:underline focus:outline-none">
-            Show Requirements
-        </button>
+<!-- Job Listings Section -->
+<section class="max-w-6xl mx-auto p-6">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 
-        <!-- Collapsible Requirements -->
-        <div class="requirements mt-4 hidden">
-            <h4 class="font-bold text-gray-800 mb-2">Requirements:</h4>
-            <ul class="list-disc list-inside text-gray-600 space-y-1">
-                <li>Be eligible to work in the United States</li>
-                <li>Be aged 18 or over</li>
-                <li>Education/Experience: High school diploma or GED required.</li>
-                <li>Train on-the-job</li>
-            </ul>
-        </div>
+    <!-- Job Card Template - Repeat This for Each Role -->
+    <div class="bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition duration-300">
+      <div class="text-blue-500 text-4xl mb-4">
+        <i class="fas fa-keyboard"></i>
+      </div>
+      <h3 class="text-xl font-bold text-gray-800 mb-1">Data Entry Specialist</h3>
+      <p class="text-gray-500 text-sm mb-2">Full-time | Remote</p>
+      <p class="text-gray-600 mb-4 text-sm">Accurately input and manage construction project data, ensuring all documentation is properly recorded and organized.</p>
+
+      <div class="mb-4">
+        <h4 class="text-gray-800 font-semibold mb-1">Responsibilities:</h4>
+        <ul class="list-disc list-inside text-gray-600 text-sm space-y-1">
+          <li>Enter project data into company systems</li>
+          <li>Maintain accurate records of materials and labor</li>
+          <li>Generate reports for project managers</li>
+          <li>Verify data accuracy and completeness</li>
+        </ul>
+      </div>
+
+      <button onclick="toggleRequirements(this)" class="text-blue-600 text-sm font-medium hover:underline mb-2">
+        Show Requirements
+      </button>
+      <div class="requirements hidden mt-2 text-sm">
+        <h4 class="font-semibold text-gray-800 mb-1">Requirements:</h4>
+        <ul class="list-disc list-inside text-gray-600 space-y-1">
+          <li>Be eligible to work in the United States</li>
+          <li>Be aged 18 or over</li>
+          <li>High school diploma or GED required</li>
+          <li>Train on-the-job</li>
+        </ul>
+      </div>
+
+      <a href="#application-form" class="mt-4 inline-block text-purple-600 font-semibold hover:text-purple-800 transition">
+        Apply Now <i class="fas fa-arrow-right ml-1"></i>
+      </a>
     </div>
-</div>
 
-<!-- JavaScript -->
+    <!-- Repeat the above block for other positions like Payroll Clerk, Customer Service Representative, etc. -->
+
+  </div>
+</section>
+
+<!-- JavaScript for Toggle -->
 <script>
-    function toggleRequirements(button) {
-        const reqDiv = button.nextElementSibling;
-        const isHidden = reqDiv.classList.contains('hidden');
-        reqDiv.classList.toggle('hidden');
-        button.textContent = isHidden ? 'Hide Requirements' : 'Show Requirements';
-    }
+  function toggleRequirements(button) {
+    const reqDiv = button.nextElementSibling;
+    const isHidden = reqDiv.classList.contains('hidden');
+    reqDiv.classList.toggle('hidden');
+    button.textContent = isHidden ? 'Hide Requirements' : 'Show Requirements';
+  }
 </script>
-                    <a href="#application-form" class="text-purple-600 font-bold hover:text-purple-800 transition flex items-center">
-                        Apply Now <i class="fas fa-arrow-right ml-2"></i>
-                    </a>
-                </div>
-                
-                <!-- Customer Service Position -->
-                <div class="job-card bg-gray-50 p-8 rounded-xl shadow-md transition duration-300 transform hover:scale-105">
-                    <div class="text-yellow-500 text-4xl mb-6">
-                        <i class="fas fa-headset"></i>
-                    </div>
-                    <h3 class="text-2xl font-bold text-gray-800 mb-2">Customer Service Representative</h3>
-                    <p class="text-gray-500 mb-4">Full-time | Remote</p>
-                    <p class="text-gray-600 mb-6">Be the friendly voice of our company, assisting clients with inquiries, scheduling, and project updates.</p>
-                    <div class="mb-6">
-                        <h4 class="font-bold text-gray-800 mb-2">Responsibilities:</h4>
-                        <ul class="list-disc list-inside text-gray-600 space-y-1">
-                            <li>Respond to customer inquiries via phone and email</li>
-                            <li>Schedule appointments and consultations</li>
-                            <li>Provide project updates to clients</li>
-                            <li>Resolve service issues</li>
-                        </ul>
-                          <!-- Toggle Button -->
-        <button onclick="toggleRequirements(this)" class="mt-4 text-blue-600 hover:underline focus:outline-none">
-            Show Requirements
-        </button>
+<!-- Job Listings Section -->
+<section class="max-w-6xl mx-auto p-6">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 
-        <!-- Collapsible Requirements -->
-        <div class="requirements mt-4 hidden">
-            <h4 class="font-bold text-gray-800 mb-2">Requirements:</h4>
-            <ul class="list-disc list-inside text-gray-600 space-y-1">
-                <li>Be eligible to work in the United States</li>
-                <li>Be aged 18 or over</li>
-                <li>Education/Experience: High school diploma or GED required.</li>
-                <li>Train on-the-job</li>
-            </ul>
-        </div>
+    <!-- Job Card Template - Repeat This for Each Role -->
+    <div class="bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition duration-300">
+      <div class="text-blue-500 text-4xl mb-4">
+        <i class="fas fa-keyboard"></i>
+      </div>
+      <h3 class="text-xl font-bold text-gray-800 mb-1">Data Entry Specialist</h3>
+      <p class="text-gray-500 text-sm mb-2">Full-time | Remote</p>
+      <p class="text-gray-600 mb-4 text-sm">Accurately input and manage construction project data, ensuring all documentation is properly recorded and organized.</p>
+
+      <div class="mb-4">
+        <h4 class="text-gray-800 font-semibold mb-1">Responsibilities:</h4>
+        <ul class="list-disc list-inside text-gray-600 text-sm space-y-1">
+          <li>Enter project data into company systems</li>
+          <li>Maintain accurate records of materials and labor</li>
+          <li>Generate reports for project managers</li>
+          <li>Verify data accuracy and completeness</li>
+        </ul>
+      </div>
+
+      <button onclick="toggleRequirements(this)" class="text-blue-600 text-sm font-medium hover:underline mb-2">
+        Show Requirements
+      </button>
+      <div class="requirements hidden mt-2 text-sm">
+        <h4 class="font-semibold text-gray-800 mb-1">Requirements:</h4>
+        <ul class="list-disc list-inside text-gray-600 space-y-1">
+          <li>Be eligible to work in the United States</li>
+          <li>Be aged 18 or over</li>
+          <li>High school diploma or GED required</li>
+          <li>Train on-the-job</li>
+        </ul>
+      </div>
+
+      <a href="#application-form" class="mt-4 inline-block text-purple-600 font-semibold hover:text-purple-800 transition">
+        Apply Now <i class="fas fa-arrow-right ml-1"></i>
+      </a>
     </div>
-</div>
 
-<!-- JavaScript -->
+    <!-- Repeat the above block for other positions like Payroll Clerk, Customer Service Representative, etc. -->
+
+  </div>
+</section>
+
+<!-- JavaScript for Toggle -->
 <script>
-    function toggleRequirements(button) {
-        const reqDiv = button.nextElementSibling;
-        const isHidden = reqDiv.classList.contains('hidden');
-        reqDiv.classList.toggle('hidden');
-        button.textContent = isHidden ? 'Hide Requirements' : 'Show Requirements';
-    }
+  function toggleRequirements(button) {
+    const reqDiv = button.nextElementSibling;
+    const isHidden = reqDiv.classList.contains('hidden');
+    reqDiv.classList.toggle('hidden');
+    button.textContent = isHidden ? 'Hide Requirements' : 'Show Requirements';
+  }
 </script>
-                    </div>
-                    <a href="#application-form" class="text-purple-600 font-bold hover:text-purple-800 transition flex items-center">
-                        Apply Now <i class="fas fa-arrow-right ml-2"></i>
-                    </a>
-                </div>
-                
-                <!-- Data Analyst Position -->
-                <div class="job-card bg-gray-50 p-8 rounded-xl shadow-md transition duration-300 transform hover:scale-105">
-                    <div class="text-red-500 text-4xl mb-6">
-                        <i class="fas fa-chart-line"></i>
-                    </div>
-                    <h3 class="text-2xl font-bold text-gray-800 mb-2">Construction Data Analyst</h3>
-                    <p class="text-gray-500 mb-4">Full-time | Hybrid</p>
-                    <p class="text-gray-600 mb-6">Analyze construction project data to identify trends, improve efficiency, and support decision-making.</p>
-                    <div class="mb-6">
-                        <h4 class="font-bold text-gray-800 mb-2">Responsibilities:</h4>
-                        <ul class="list-disc list-inside text-gray-600 space-y-1">
-                            <li>Collect and analyze project data</li>
-                            <li>Create reports and visualizations</li>
-                            <li>Identify cost-saving opportunities</li>
-                            <li>Support strategic planning</li>
-                        </ul>
-                    </div>
-                    <a href="#application-form" class="text-purple-600 font-bold hover:text-purple-800 transition flex items-center">
-                        Apply Now <i class="fas fa-arrow-right ml-2"></i>
-                    </a>
-                </div>
-                
-                <!-- General Application -->
-                <div class="job-card bg-purple-50 p-8 rounded-xl shadow-md transition duration-300 transform hover:scale-105">
-                    <div class="text-purple-600 text-4xl mb-6">
-                        <i class="fas fa-hard-hat"></i>
-                    </div>
-                    <h3 class="text-2xl font-bold text-gray-800 mb-2">Other Positions</h3>
-                    <p class="text-gray-500 mb-4">Various | Multiple Locations</p>
-                    <p class="text-gray-600 mb-6">We're always looking for skilled tradespeople, project managers, and construction professionals.</p>
-                    <div class="mb-6">
-                        <h4 class="font-bold text-gray-800 mb-2">Current Needs:</h4>
-                        <ul class="list-disc list-inside text-gray-600 space-y-1">
-                            <li>Project Managers</li>
-                            <li>Skilled Trades (Electricians, Plumbers)</li>
-                            <li>Construction Laborers</li>
-                            <li>Safety Officers</li>
-                        </ul>
-                    </div>
-                    <a href="#application-form" class="text-purple-600 font-bold hover:text-purple-800 transition flex items-center">
-                        Apply Now <i class="fas fa-arrow-right ml-2"></i>
-                    </a>
-                </div>
-            </div>
-            
-            <!-- Benefits Section -->
-            <div class="bg-gradient-to-r from-blue-500 to-purple-600 rounded-xl p-8 text-white">
-                <h3 class="text-3xl font-bold mb-6">Why Join Accent Home Remedies?</h3>
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    <div class="flex items-start">
-                        <i class="fas fa-medal text-2xl mr-4 mt-1"></i>
-                        <div>
-                            <h4 class="font-bold text-xl mb-2">Competitive Compensation</h4>
-                            <p>We offer industry-leading pay and benefits packages.</p>
-                        </div>
-                    </div>
-                    <div class="flex items-start">
-                        <i class="fas fa-graduation-cap text-2xl mr-4 mt-1"></i>
-                        <div>
-                            <h4 class="font-bold text-xl mb-2">Career Growth</h4>
-                            <p>Opportunities for professional development and advancement.</p>
-                        </div>
-                    </div>
-                    <div class="flex items-start">
-                        <i class="fas fa-heartbeat text-2xl mr-4 mt-1"></i>
-                        <div>
-                            <h4 class="font-bold text-xl mb-2">Health Benefits</h4>
-                            <p>Comprehensive medical, dental, and vision coverage.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+<!-- Job Listings Section -->
+<section class="max-w-6xl mx-auto p-6">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+    <!-- Job Card Template - Repeat This for Each Role -->
+    <div class="bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition duration-300">
+      <div class="text-blue-500 text-4xl mb-4">
+        <i class="fas fa-keyboard"></i>
+      </div>
+      <h3 class="text-xl font-bold text-gray-800 mb-1">Data Entry Specialist</h3>
+      <p class="text-gray-500 text-sm mb-2">Full-time | Remote</p>
+      <p class="text-gray-600 mb-4 text-sm">Accurately input and manage construction project data, ensuring all documentation is properly recorded and organized.</p>
+
+      <div class="mb-4">
+        <h4 class="text-gray-800 font-semibold mb-1">Responsibilities:</h4>
+        <ul class="list-disc list-inside text-gray-600 text-sm space-y-1">
+          <li>Enter project data into company systems</li>
+          <li>Maintain accurate records of materials and labor</li>
+          <li>Generate reports for project managers</li>
+          <li>Verify data accuracy and completeness</li>
+        </ul>
+      </div>
+
+      <button onclick="toggleRequirements(this)" class="text-blue-600 text-sm font-medium hover:underline mb-2">
+        Show Requirements
+      </button>
+      <div class="requirements hidden mt-2 text-sm">
+        <h4 class="font-semibold text-gray-800 mb-1">Requirements:</h4>
+        <ul class="list-disc list-inside text-gray-600 space-y-1">
+          <li>Be eligible to work in the United States</li>
+          <li>Be aged 18 or over</li>
+          <li>High school diploma or GED required</li>
+          <li>Train on-the-job</li>
+        </ul>
+      </div>
+
+      <a href="#application-form" class="mt-4 inline-block text-purple-600 font-semibold hover:text-purple-800 transition">
+        Apply Now <i class="fas fa-arrow-right ml-1"></i>
+      </a>
+    </div>
+
+    <!-- Repeat the above block for other positions like Payroll Clerk, Customer Service Representative, etc. -->
+
+  </div>
+</section>
+
+<!-- JavaScript for Toggle -->
+<script>
+  function toggleRequirements(button) {
+    const reqDiv = button.nextElementSibling;
+    const isHidden = reqDiv.classList.contains('hidden');
+    reqDiv.classList.toggle('hidden');
+    button.textContent = isHidden ? 'Hide Requirements' : 'Show Requirements';
+  }
+</script>
+<!-- Job Listings Section -->
+<section class="max-w-6xl mx-auto p-6">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+    <!-- Job Card Template - Repeat This for Each Role -->
+    <div class="bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition duration-300">
+      <div class="text-blue-500 text-4xl mb-4">
+        <i class="fas fa-keyboard"></i>
+      </div>
+      <h3 class="text-xl font-bold text-gray-800 mb-1">Data Entry Specialist</h3>
+      <p class="text-gray-500 text-sm mb-2">Full-time | Remote</p>
+      <p class="text-gray-600 mb-4 text-sm">Accurately input and manage construction project data, ensuring all documentation is properly recorded and organized.</p>
+
+      <div class="mb-4">
+        <h4 class="text-gray-800 font-semibold mb-1">Responsibilities:</h4>
+        <ul class="list-disc list-inside text-gray-600 text-sm space-y-1">
+          <li>Enter project data into company systems</li>
+          <li>Maintain accurate records of materials and labor</li>
+          <li>Generate reports for project managers</li>
+          <li>Verify data accuracy and completeness</li>
+        </ul>
+      </div>
+
+      <button onclick="toggleRequirements(this)" class="text-blue-600 text-sm font-medium hover:underline mb-2">
+        Show Requirements
+      </button>
+      <div class="requirements hidden mt-2 text-sm">
+        <h4 class="font-semibold text-gray-800 mb-1">Requirements:</h4>
+        <ul class="list-disc list-inside text-gray-600 space-y-1">
+          <li>Be eligible to work in the United States</li>
+          <li>Be aged 18 or over</li>
+          <li>High school diploma or GED required</li>
+          <li>Train on-the-job</li>
+        </ul>
+      </div>
+
+      <a href="#application-form" class="mt-4 inline-block text-purple-600 font-semibold hover:text-purple-800 transition">
+        Apply Now <i class="fas fa-arrow-right ml-1"></i>
+      </a>
+    </div>
+
+    <!-- Repeat the above block for other positions like Payroll Clerk, Customer Service Representative, etc. -->
+
+  </div>
+</section>
+
+<!-- JavaScript for Toggle -->
+<script>
+  function toggleRequirements(button) {
+    const reqDiv = button.nextElementSibling;
+    const isHidden = reqDiv.classList.contains('hidden');
+    reqDiv.classList.toggle('hidden');
+    button.textContent = isHidden ? 'Hide Requirements' : 'Show Requirements';
+  }
+</script>
+
 
     <!-- Application Form -->
     <section id="application-form" class="py-20 bg-gray-50">
