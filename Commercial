@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Commercial Construction | Accent Home Remedies</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="bg-white shadow-md p-6 text-center">
+    <h1 class="text-4xl font-bold text-indigo-700">Accent Home Remedies</h1>
+    <p class="mt-2 text-lg text-gray-600">Commercial Construction Built for Success</p>
+  </header>
+
+  <!-- Hero Banner -->
+  <section class="relative bg-cover bg-center h-[400px]" style="background-image: url('https://via.placeholder.com/1200x400?text=Commercial+Construction');">
+    <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+      <h2 class="text-white text-4xl md:text-5xl font-bold text-center px-4">Functional Spaces. Lasting Impressions.</h2>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <main class="max-w-6xl mx-auto px-4 py-16 space-y-20">
+
+    <!-- Intro -->
+    <section class="text-center mb-12">
+      <p class="text-lg md:text-xl text-gray-700 max-w-3xl mx-auto">
+        At <strong>Accent Home Remedies</strong>, we deliver tailored commercial spaces that blend professional aesthetics with high-performance function. Whether you're launching a new business or upgrading your facilities, we build environments that foster productivity and success.
+      </p>
+    </section>
+
+    <!-- Office Buildings -->
+    <section class="grid md:grid-cols-2 gap-10 items-center">
+      <img src="https://via.placeholder.com/600x400?text=Office+Building" alt="Modern Office Building" class="rounded-xl shadow-lg w-full">
+      <div>
+        <h3 class="text-3xl font-semibold text-indigo-700 mb-4">Office Buildings</h3>
+        <p class="text-lg text-gray-700 leading-relaxed">
+          We design and construct modern office spaces with your team in mind. From open-concept layouts to executive suites, our office buildings are built to support efficiency, collaboration, and growth.
+        </p>
+      </div>
+    </section>
+
+    <!-- Retail Spaces -->
+    <section class="grid md:grid-cols-2 gap-10 items-center md:flex-row-reverse">
+      <img src="https://via.placeholder.com/600x400?text=Retail+Space" alt="Retail Space Interior" class="rounded-xl shadow-lg w-full">
+      <div>
+        <h3 class="text-3xl font-semibold text-indigo-700 mb-4">Retail Spaces</h3>
+        <p class="text-lg text-gray-700 leading-relaxed">
+          Make a statement with a retail environment that attracts customers and enhances shopping experiences. We build storefronts and interiors that reflect your brand while maximizing space and functionality.
+        </p>
+      </div>
+    </section>
+
+    <!-- Restaurant Build-Outs -->
+    <section class="grid md:grid-cols-2 gap-10 items-center">
+      <img src="https://via.placeholder.com/600x400?text=Restaurant+Build-Out" alt="Restaurant Interior" class="rounded-xl shadow-lg w-full">
+      <div>
+        <h3 class="text-3xl font-semibold text-indigo-700 mb-4">Restaurant Build-Outs</h3>
+        <p class="text-lg text-gray-700 leading-relaxed">
+          From sleek cafes to bustling dining establishments, our restaurant build-outs combine design, flow, and compliance to create an inviting and efficient space. We understand the needs of food service operations and deliver solutions that perform.
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-white border-t mt-20 p-6 text-center text-gray-500 text-sm">
+    &copy; 2025 Accent Home Remedies. All rights reserved.
+  </footer>
+
+</body>
+</html>
