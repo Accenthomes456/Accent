@@ -33,7 +33,7 @@
 
     <!-- Whole-House Renovations -->
     <section class="grid md:grid-cols-2 gap-10 items-center">
-      <img src="https://via.placeholder.com/600x400?text=Whole+House+Renovation" alt="Whole House Renovation" class="rounded-xl shadow-lg w-full">
+      <img src="Wimages/Renovation.jpg" alt="Whole House Renovation" class="rounded-xl shadow-lg w-full">
       <div>
         <h3 class="text-3xl font-semibold text-indigo-700 mb-4">Whole-House Renovations</h3>
         <p class="text-lg text-gray-700 leading-relaxed">
@@ -43,19 +43,51 @@
     </section>
 
     <!-- Historic Restorations -->
-    <section class="grid md:grid-cols-2 gap-10 items-center md:flex-row-reverse">
-      <img src="https://via.placeholder.com/600x400?text=Historic+Restoration" alt="Historic Restoration Project" class="rounded-xl shadow-lg w-full">
-      <div>
-        <h3 class="text-3xl font-semibold text-indigo-700 mb-4">Historic Restorations</h3>
-        <p class="text-lg text-gray-700 leading-relaxed">
-          Preserve the charm and craftsmanship of historic homes while updating them for today’s living. We handle restorations with precision, honoring architectural details while upgrading systems to meet modern standards.
-        </p>
-      </div>
-    </section>
+<section class="grid md:grid-cols-2 gap-10 items-center md:flex-row-reverse">
+          <!-- Image Comparison Slider -->
+          <div class="relative w-full h-[300px] max-w-full overflow-hidden rounded-xl shadow-lg mx-auto" id="slider-container">
+            <!-- Before Image -->
+            <img src="Wimages/historic.jpg" alt="Before" class="absolute w-full h-full object-cover">
+        
+            <!-- After Image Overlay -->
+            <div id="after" class="absolute h-full overflow-hidden" style="width:50%;">
+              <img src="Wimages/Historic after.jpg" alt="After" class="w-full h-full object-cover">
+            </div>
+        
+            <!-- Handle Divider -->
+            <div id="handle" class="absolute top-0 left-1/2 w-[4px] h-full bg-white cursor-ew-resize"></div>
+          </div>
+        
+          <!-- Description Section -->
+          <div>
+            <h3 class="text-3xl font-semibold text-indigo-700 mb-4">Before & After Project</h3>
+            <p class="text-lg text-gray-700 leading-relaxed">
+              Slide to view the transformation! Our remodeling team delivers stunning results from demolition to detail finish. Experience how we breathe new life into every space with precision and care.
+            </p>
+          </div>
+ </section>
+        
+        <script>
+          const container = document.getElementById('slider-container');
+          const after = document.getElementById('after');
+          const handle = document.getElementById('handle');
+        
+          function updateSlider(x) {
+            const rect = container.getBoundingClientRect();
+            const offset = Math.max(0, Math.min(x - rect.left, rect.width));
+            after.style.width = offset + 'px';
+            handle.style.left = offset + 'px';
+          }
+        
+          container.addEventListener('mousemove', e => updateSlider(e.clientX));
+          container.addEventListener('touchmove', e => {
+            if (e.touches.length > 0) updateSlider(e.touches[0].clientX);
+          }, { passive: true });
+        </script>
 
     <!-- Accessibility Modifications -->
     <section class="grid md:grid-cols-2 gap-10 items-center">
-      <img src="https://via.placeholder.com/600x400?text=Accessibility+Modification" alt="Accessibility Modifications" class="rounded-xl shadow-lg w-full">
+      <img src="Wimages/Accessibility.jpg" alt="Accessibility Modifications" class="rounded-xl shadow-lg w-full">
       <div>
         <h3 class="text-3xl font-semibold text-indigo-700 mb-4">Accessibility Modifications</h3>
         <p class="text-lg text-gray-700 leading-relaxed">
