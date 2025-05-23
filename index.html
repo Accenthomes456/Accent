@@ -48,6 +48,41 @@
             50%  { transform: translate(0, 15px); }
             100%   { transform: translate(0, -0px); }   
         }
+
+        body { font-family: Arial, sans-serif; background: #f4f4f4; margin: 0; padding: 0; }
+        .scroll-container {
+            display: flex;
+            overflow-x: auto;
+            white-space: nowrap;
+            padding: 20px;
+        }
+        .testimonial {
+            background: white;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            width: 300px;
+            display: inline-block;
+            vertical-align: top;
+            flex-shrink: 0;
+        }
+        .profile {
+            width: 60px;
+            height: 60px;
+            margin-right: 15px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+        }
+        .content {
+            flex: 1;
+        }
+        .name { font-weight: bold; margin-bottom: 5px; }
+        .stars { color: gold; margin-bottom: 5px; }
     </style>
 </head>
 <body class="bg-gray-50">
@@ -239,6 +274,9 @@ This partnership allows us to maintain the intimate feel of a family-run team, w
     </div>
   </div>
 </section>
+    
+    
+    <!-- Customer Testimonials-->
 
     <!-- Contact Section -->
     <section id="contact" class="py-20 bg-white">
