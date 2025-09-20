@@ -24,10 +24,10 @@
         </div>
 
         <!-- Form -->
-        <form action="https://formspree.io/f/xyzdrddj" method="POST" enctype="multipart/form-data" class="p-8">
+        <form id="jobForm" action="https://formspree.io/f/xyzdrddj" method="POST" enctype="multipart/form-data" class="p-8">
           <input type="hidden" name="_subject" value="New Job Application">
           <input type="hidden" name="_template" value="table">
-          <input type="hidden" name="_next" value="https://conforticonstructionservices.com/thanks.html">
+          
 
           <!-- Position -->
           <div class="mb-6">
@@ -127,6 +127,23 @@
       </div>
     </div>
   </section>
+  <script>
+      document.getElementById("jobForm").addEventListener("submit", async function(event) {
+        event.preventDefault();
+        const form = event.target;
+        const data = new FormData(form);
+        const response = await fetch(form.action, {
+          method: form.method,
+          body: data,
+          headers: { 'Accept': 'application/json' }
+        });
+        if (response.ok) {
+          window.location.href = "https://conforticonstructionservices.com/thanks.html";
+        } else {
+          alert("Something went wrong. Please try again.");
+        }
+      });
+</script>
 
 </body>
 </html>
