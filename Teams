@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Team - Conforti Construction Services Inc.</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="bg-blue-900 text-white py-10 text-center">
+    <h1 class="text-4xl font-bold">Meet Our Team</h1>
+    <p class="text-lg mt-2">Conforti Construction Services Inc.</p>
+  </header>
+
+  <!-- Staff Section -->
+  <section class="max-w-7xl mx-auto px-6 py-12">
+    <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+      
+      <!-- Staff Card -->
+      <div class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-lg transition">
+        <img src="images/staff1.jpg" alt="Staff Member" class="w-full h-64 object-cover">
+        <div class="p-6 text-center">
+          <h3 class="text-xl font-semibold text-blue-900">John Conforti</h3>
+          <p class="text-gray-600">Founder & Project Manager</p>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-lg transition">
+        <img src="images/staff2.jpg" alt="Staff Member" class="w-full h-64 object-cover">
+        <div class="p-6 text-center">
+          <h3 class="text-xl font-semibold text-blue-900">Maria Gonzalez</h3>
+          <p class="text-gray-600">Architectural Designer</p>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-lg transition">
+        <img src="images/staff3.jpg" alt="Staff Member" class="w-full h-64 object-cover">
+        <div class="p-6 text-center">
+          <h3 class="text-xl font-semibold text-blue-900">David Brown</h3>
+          <p class="text-gray-600">Site Supervisor</p>
+        </div>
+      </div>
+
+      <!-- Add more staff as needed -->
+      <!-- Example:
+      <div class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-lg transition">
+        <img src="images/staff4.jpg" alt="Staff Member" class="w-full h-64 object-cover">
+        <div class="p-6 text-center">
+          <h3 class="text-xl font-semibold text-blue-900">Sarah Lee</h3>
+          <p class="text-gray-600">Structural Engineer</p>
+        </div>
+      </div>
+      -->
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-900 text-white text-center py-6 mt-10">
+    <p>&copy; 2025 Conforti Construction Services Inc. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
