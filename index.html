@@ -97,42 +97,61 @@
 <body class="bg-gray-50">
     <!-- Navigation -->
     <nav class="gradient-bg text-white shadow-lg">
-        <div class="container mx-auto px-6 py-4">
-            <div class="flex items-center justify-between">
-                <div class="flex items-center">
-                    <img src="conw.png" alt="Conforti Construction Logo" width="100">
-                    <div>
-                        <h1 class="text-2xl font-bold">Conforti Construction Services Inc.</h1>
-                        <p class="text-xs">Building Dreams, Crafting Homes</p>
-                    </div>
+          <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+            <!-- Top Row -->
+            <div class="flex items-center justify-between py-3">
+        
+              <!-- Logo & Brand -->
+              <div class="flex items-center gap-3">
+                <img
+                  src="conw.png"
+                  alt="Conforti Construction Logo"
+                  class="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 object-contain"
+                />
+        
+                <div class="leading-tight">
+                  <h1 class="text-sm sm:text-lg md:text-xl font-bold whitespace-nowrap">
+                    Conforti Construction
+                  </h1>
+                  <p class="text-[10px] sm:text-xs opacity-90">
+                    Building Dreams, Crafting Homes
+                  </p>
                 </div>
-                <div class="hidden md:flex items-center space-x-8">
-                    <a href="#home" class="hover:text-yellow-200 transition">Home</a>
-                    <a href="#about" class="hover:text-yellow-200 transition">About</a>
-                    <a href="#services" class="hover:text-yellow-200 transition">Services</a>
-                    <a href="project.html" class="hover:text-yellow-200 transition">Gallery</a>
-                    <a href="Job Positions.html" target="_blank" class="block py-2 hover:text-yellow-200 transition">Careers</a>
-                    <a href="team.html" class="hover:text-yellow-200 transition">Teams</a>
-                    <a href="#contact" class="hover:text-yellow-200 transition">Contact</a>
-                </div>
-                <div class="md:hidden">
-                    <button class="mobile-menu-button">
-                        <i class="fas fa-bars text-2xl"></i>
-                    </button>
-                </div>
+              </div>
+        
+              <!-- Desktop Menu -->
+              <div class="hidden md:flex items-center space-x-8">
+                <a href="#home" class="hover:text-yellow-200 transition">Home</a>
+                <a href="#about" class="hover:text-yellow-200 transition">About</a>
+                <a href="#services" class="hover:text-yellow-200 transition">Services</a>
+                <a href="project.html" class="hover:text-yellow-200 transition">Gallery</a>
+                <a href="Job Positions.html" target="_blank" class="hover:text-yellow-200 transition">Careers</a>
+                <a href="team.html" class="hover:text-yellow-200 transition">Teams</a>
+                <a href="#contact" class="hover:text-yellow-200 transition">Contact</a>
+              </div>
+        
+              <!-- Mobile Menu Button -->
+              <button class="md:hidden mobile-menu-button">
+                <i class="fas fa-bars text-2xl"></i>
+              </button>
+        
             </div>
-        </div>
-        <!-- Mobile menu -->
-        <div class="mobile-menu hidden md:hidden gradient-bg pb-4 px-6">
-            <a href="#home" class="block py-2 hover:text-yellow-200 transition">Home</a>
-            <a href="#about" class="block py-2 hover:text-yellow-200 transition">About</a>
-            <a href="#services" class="block py-2 hover:text-yellow-200 transition">Services</a>
-            <a href="project.html" class="hover:text-yellow-200 transition">Gallery</a>
-            <a href="Job Positions.html" target="_blank" class="block py-2 hover:text-yellow-200 transition">Careers</a>
-            <a href="team.html" class="hover:text-yellow-200 transition">Teams</a>
-            <a href="#contact" class="hover:text-yellow-200 transition">Contact</a>
-        </div>
+        
+            <!-- Mobile Menu Dropdown -->
+            <div class="mobile-menu hidden md:hidden pb-4 space-y-2">
+              <a href="#home" class="block py-2 hover:text-yellow-200 transition">Home</a>
+              <a href="#about" class="block py-2 hover:text-yellow-200 transition">About</a>
+              <a href="#services" class="block py-2 hover:text-yellow-200 transition">Services</a>
+              <a href="project.html" class="block py-2 hover:text-yellow-200 transition">Gallery</a>
+              <a href="Job Positions.html" target="_blank" class="block py-2 hover:text-yellow-200 transition">Careers</a>
+              <a href="team.html" class="block py-2 hover:text-yellow-200 transition">Teams</a>
+              <a href="#contact" class="block py-2 hover:text-yellow-200 transition">Contact</a>
+            </div>
+        
+          </div>
     </nav>
+
 
     <!-- Hero Section -->
     <section id="home" class="gradient-bg text-white py-20">
